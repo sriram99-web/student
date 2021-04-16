@@ -50,4 +50,4 @@ jobs:
         app-name: 'studentwebapp'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_257d7665411b478680e8af462c3693e0 }}
-        package: '*.jar'
+        package: '*.war'
